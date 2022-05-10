@@ -1,0 +1,29 @@
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+h3{
+    display: block;
+    margin-bottom: 50px;
+}
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    width: 306px;
+    }
+.board .squares{
+    width: 100px;
+    height: 100px;
+    border:1px solid #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 36px;
+}
+.board .squares:hover{
+    background-color: #eee;
+}
